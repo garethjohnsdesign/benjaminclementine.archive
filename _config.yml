@@ -9,7 +9,8 @@ collections:
     title: Uploads
     output: false
 url: https://www.benjaminclementine.com
-description: Official website for Victoires de la Musique, Mercury Prize Winning Poet and artist Benjamin Clementine.
+description: Official website for Victoires de la Musique, Mercury Prize Winning Poet
+  and artist Benjamin Clementine.
 permalink: pretty
 exclude:
 - bower.json
