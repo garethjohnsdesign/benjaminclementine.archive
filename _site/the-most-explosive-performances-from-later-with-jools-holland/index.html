@@ -30,7 +30,7 @@
   <link rel="canonical" href="https://www.benjaminclementine.com/the-most-explosive-performances-from-later-with-jools-holland/">
   <link rel="alternate" type="application/rss+xml" title="Benjamin Clementine" href="https://www.benjaminclementine.com/feed.xml">
 </head>
-<body class="post page">
+<body>
 <div class="navigation__overlay grid-y align-center" id="navigation__overlay" data-toggler=".open">
   <div class="shrink cell">
     <div class="grid-x grid-padding-x align-center">
@@ -52,24 +52,43 @@
 </div>
 <section class="navigation grid-x grid-padding-x grid-padding-y align-justify">
   <div class="shrink cell">
-    <a href="/">Benjamin Clementine</a>
+    <a data-toggle="navigation__overlay toggle" data-toggler=".is-active">Benjamin Clementine</a>
   </div>
   <div class="shrink navigation__small">
-    <button class="hamburger hamburger--collapse" id="toggle" data-toggle="navigation--overlay toggle" data-toggler=".is-active" type="button">
+    <button class="hamburger hamburger--collapse" id="toggle" data-toggle="navigation__overlay toggle" data-toggler=".is-active" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
 </section>
+<section class="post page">
 <div class="grid-x grid-padding-x align-center">
   <div class="small-12 cell">
   </div>
 </div>
+</section>
+<div class="follow__overlay grid-y align-center" id="follow__overlay" data-toggler=".open">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+    	<div class="shrink cell" data-aos="fade-up">
+    		<ul class="vertical menu text-center">
+          <li><a href="https://instagram.com/benjaminclementine" target="_blank">Instagram</a></li>
+          <li><a href="https://www.facebook.com/benjaminclementine" target="_blank">Facebook</a></li>
+          <li><a href="https://www.youtube.com/channel/UC7m-qX2H35-_s6FVFQpUuDw" target="_blank">YouTube</a></li>
+          <li><a href="https://twitter.com/mrbclementine?lang=en-gb" target="_blank">Twitter</a></li>
+          <li><a href="https://soundcloud.com/benjamin-clementine" target="_blank">Soundcloud</a></li>
+          <li><a href="https://open.spotify.com/artist/7zHIrsSBL7A0gEJfzv1m7z" target="_blank">Spotify</a></li>
+          <li><a href="http://www.deezer.com/artist/4806921" target="_blank">Deezer</a></li>
+        </ul>
+    	</div>
+    </div>
+  </div>
+</div>
 <footer class="grid-x grid-padding-x grid-padding-y align-justify">
-  <div class="shrink cell text-center">
-    <a href="/privacy">Follow</a>
+  <div class="shrink cell text-center footer__small">
+    <a id="footer__follow" data-toggle="follow__overlay footer__follow" data-toggler=".is-active">Follow</a>
   </div>
   <div class="shrink cell text-center">
-    <a href="/privacy">Subscribe</a>
+    <a href="/subscribe">Subscribe</a>
   </div>  
 </footer>
 <script src="/assets/js/min/app-min.js"></script>

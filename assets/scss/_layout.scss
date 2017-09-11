@@ -82,10 +82,12 @@ i, cite, em, var, address, dfn {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
+  padding: 1rem;
 }
 
 .navigation__small {
-  z-index: 3;
+  z-index: 2;
 }
 
 .navigation__overlay {
@@ -102,7 +104,7 @@ i, cite, em, var, address, dfn {
   font-size: 1.5rem;
 
   &.open {
-    opacity: 0.8;
+    opacity: 0.9;
     visibility: visible;
   }
   
@@ -123,6 +125,18 @@ i, cite, em, var, address, dfn {
   } 
 }
 
+// 2. Page
+// ---------
+
+.page {
+  padding: 2rem;
+}
+
+article {
+  border-bottom: 1px solid $color--white;
+  padding: 1rem;
+}
+
 // 2. Footer
 // ---------
 
@@ -130,4 +144,34 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.follow__small {
+  z-index: 2;
+}
+
+a#footer__follow.is-active  {
+  border-bottom: 2px solid $color--white;
+}
+
+.follow__overlay {
+  z-index: 1;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  font-size: 1.5rem;
+
+  &.open {
+    opacity: 0.9;
+    visibility: visible;
+  }
+  
 }

@@ -27,11 +27,11 @@
 <section class="navigation grid-x grid-padding-x grid-padding-y align-justify">
   
   <div class="shrink cell">
-    <a href="/">{{site.title}}</a>
+    <a data-toggle="navigation__overlay toggle" data-toggler=".is-active">{{site.title}}</a>
   </div>
   
   <div class="shrink navigation__small">
-    <button class="hamburger hamburger--collapse" id="toggle" data-toggle="navigation--overlay toggle" data-toggler=".is-active" type="button">
+    <button class="hamburger hamburger--collapse" id="toggle" data-toggle="navigation__overlay toggle" data-toggler=".is-active" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>

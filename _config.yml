@@ -43,6 +43,7 @@ plugins:
 markdown: kramdown
 kramdown:
   input: GFM
+  auto_ids: false
   hard_wrap: false
 highlighter: rouge
 colophon: http://garethjohnsdesign.com
