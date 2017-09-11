@@ -1,6 +1,6 @@
 ---
 title: Music
-position: 7
+position: 3
 layout: music
 ---
 

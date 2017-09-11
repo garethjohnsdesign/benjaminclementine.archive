@@ -1,6 +1,6 @@
 ---
 title: Info
-position: 5
+position: 6
 layout: info
 ---
 
