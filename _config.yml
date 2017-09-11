@@ -2,6 +2,9 @@
 title: Benjamin Clementine
 timezone: UTC
 collections:
+  film:
+    title: Film
+    output: true
   music:
     title: Music
     output: true
