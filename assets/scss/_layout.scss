@@ -1,0 +1,133 @@
+//  Table of Contents:
+//
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Home
+
+// 1. Mixins
+// ---------
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+// 2. Global
+// ---------
+
+body {  
+  cursor: default;
+}
+
+body {
+  opacity: 1;
+  transition: $primary-transition;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $primary-color;
+  color: $secondary-color;
+}
+
+:focus {
+  outline: 0;
+}
+
+[data-aos] {
+overflow: hidden;
+}
+
+// 3. Typography
+// -------------
+
+a {
+  transition: $primary-transition;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+.menu .menu-text {
+  font-weight: $global-weight-normal;
+}
+
+// X. Navigation
+// ------
+
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navigation__small {
+  z-index: 3;
+}
+
+.navigation__overlay {
+  z-index: 1;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  font-size: 1.5rem;
+
+  &.open {
+    opacity: 0.8;
+    visibility: visible;
+  }
+  
+  a {
+    color: $color--white;
+  }
+  
+  a:hover {
+    color: $color--medium-gray;
+  }
+  
+  .menu .active>a {
+    color: $color--medium-gray;
+  }
+  
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: $color--white;
+  } 
+}
+
+// 2. Footer
+// ---------
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
