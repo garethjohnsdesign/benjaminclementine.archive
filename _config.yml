@@ -8,6 +8,9 @@ collections:
   music:
     title: Music
     output: true
+  performances:
+    title: Performances
+    output: true
   poetry:
     title: Poetry
     output: true
