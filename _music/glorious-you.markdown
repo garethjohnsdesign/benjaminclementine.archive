@@ -1,6 +1,7 @@
 ---
 title: Glorious You
-date: 2017-09-11 15:00:00 Z
+date: 2014-10-01 15:00:00 Z
+image: "/uploads/glorious-you.jpg"
 ---
 
 GLORIOUS YOU - EP
