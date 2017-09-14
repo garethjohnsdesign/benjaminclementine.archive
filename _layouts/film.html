@@ -2,12 +2,42 @@
 layout: default
 ---
 
-<!-- Content -->
-
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 cell">
-    {{content}}
+<!-- Videos -->
+<section class="videos__list" id="video-gallery">
+  
+  {% assign films = site.film | reverse %}
+  {% for film in films %}
+  <article>
+    
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-8 large-8 cell excerpt" data-src="{{film.video}}" data-aos="fade-in">
+      <a href="{{film.video}}">
+        <img src="{{film.image}}" alt="{{film.title}}">
+        <div class="item__title">
+          <div class="grid-y align-middle align-center text-center" style="height: 100%">
+            <div class="cell" data-src="{{film.video}}">
+              <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
-</div>
-
-<!-- End Content -->
+    
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-8 cell text-center">
+      <h1>{{film.title}}</h1>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-8 cell text-center">
+      {{film.content}}
+    </div>
+  </div>
+  
+  </article>
+  {% endfor %}
+  
+</section>
+<!-- End Videos -->

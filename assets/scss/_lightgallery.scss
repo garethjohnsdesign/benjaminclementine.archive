@@ -6,18 +6,18 @@ $backdrop-opacity: 1 !default;
 $lg-toolbar-bg: rgba(0, 0, 0, 0) !default;
 // $lg-border-radius-base: 2px !default;
 $lg-border-radius-base: 0px !default;
-$lg-theme-highlight: rgb(169, 7, 7) !default;
-$lg-theme: #0D0A0A !default;
+$lg-theme-highlight: $color--yellow !default;
+$lg-theme: $color--white !default;
 
 // basic icon colours
 $lg-icon-bg: rgba(0, 0, 0, 0.45) !default;
 // $lg-icon-color: #999 !default;
-$lg-icon-color: #999 !default;
-$lg-icon-hover-color: $color--highlight !default;
+$lg-icon-color: $color--white !default;
+$lg-icon-hover-color: $color--yellow !default;
 
 // counter
-$lg-counter-color: #e6e6e6 !default;
-$lg-counter-font-size: 16px !default;
+$lg-counter-color: $color--white  !default;
+$lg-counter-font-size: 1rem !default;
 
 // Next prev icons
 // $lg-next-prev-bg: $lg-icon-bg !default;
@@ -1253,7 +1253,7 @@ body:not(.lg-from-hash){
     bottom: 0;
     z-index: $zindex-backdrop;
 //     background-color: #000;
-    background-color: #FFFFFF;
+    background-color: $color--black;
     opacity: 0;
     @include transition(opacity 0.15s ease 0s);
     &.in{

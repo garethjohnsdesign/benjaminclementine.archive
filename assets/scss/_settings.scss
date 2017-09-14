@@ -65,9 +65,11 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+// $global-font-size: 100%;
+$global-font-size: 125%;
 $global-width: rem-calc(1200);
-$global-lineheight: 1.5;
+// $global-lineheight: 1.5;
+$global-lineheight: 1.2;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
@@ -92,8 +94,8 @@ $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 0;
+// $global-menu-padding: 0.7rem 1rem;
 $global-menu-padding: 0.7rem 1rem;
-$global-menu-padding: 0.25rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
 $global-flexbox: true;
@@ -133,12 +135,14 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+// $header-font-family: $body-font-family;
+$header-font-family: $secondary-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-$header-lineheight: 1.4;
+// $header-lineheight: 1.4;
+$header-lineheight: 1;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
@@ -161,7 +165,8 @@ $header-styles: (
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+// $paragraph-lineheight: 1.6;
+$paragraph-lineheight: 1.2;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
@@ -182,7 +187,8 @@ $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
 $list-style-type: disc;
 $list-style-position: outside;
-$list-side-margin: 1.25rem;
+// $list-side-margin: 1.25rem;
+$list-side-margin: 0rem;
 $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
@@ -284,7 +290,8 @@ $breadcrumbs-item-separator-color: $medium-gray;
 
 $button-font-family: inherit;
 $button-padding: 0.85em 1em;
-$button-margin: 0 0 $global-margin 0;
+// $button-margin: 0 0 $global-margin 0;
+$button-margin: 0 0 $global-margin 1rem;
 $button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
@@ -412,7 +419,8 @@ $flexbox-responsive-breakpoints: true;
 // 20. Forms
 // ---------
 
-$fieldset-border: 1px solid $medium-gray;
+// $fieldset-border: 1px solid $medium-gray;
+$fieldset-border: 1px solid transparent;
 $fieldset-padding: rem-calc(20);
 $fieldset-margin: rem-calc(18 0);
 $legend-padding: rem-calc(0 3);
@@ -431,14 +439,18 @@ $form-label-line-height: 1.8;
 $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
-$input-color: $black;
-$input-placeholder-color: $medium-gray;
+// $input-color: $black;
+$input-color: $color--white;
+// $input-placeholder-color: $medium-gray;
+$input-placeholder-color: $color--white;
 $input-font-family: inherit;
 $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-normal;
 $input-line-height: $global-lineheight;
-$input-background: $white;
-$input-background-focus: $white;
+// $input-background: $white;
+$input-background: transparent;
+// $input-background-focus: $white;
+$input-background-focus: transparent;
 $input-background-disabled: $light-gray;
 $input-border: 1px solid $medium-gray;
 $input-border-focus: 1px solid $dark-gray;
@@ -798,16 +810,23 @@ $table-stack-breakpoint: medium;
 // --------
 
 $tab-margin: 0;
-$tab-background: $white;
+// $tab-background: $white;
+$tab-background: transparent;
 $tab-color: $primary-color;
-$tab-background-active: $light-gray;
-$tab-active-color: $primary-color;
-$tab-item-font-size: rem-calc(12);
-$tab-item-background-hover: $white;
+// $tab-background-active: $light-gray;
+$tab-background-active: transparent;
+// $tab-active-color: $primary-color;
+$tab-active-color: $secondary-color;
+// $tab-item-font-size: rem-calc(12);
+$tab-item-font-size: 1rem;
+// $tab-item-background-hover: $white;
+$tab-item-background-hover: transparent;
 $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;
-$tab-content-background: $white;
-$tab-content-border: $light-gray;
+// $tab-content-background: $white;
+$tab-content-background: transparent;
+// $tab-content-border: $light-gray;
+$tab-content-border: transparent;
 $tab-content-color: $body-font-color;
 $tab-content-padding: 1rem;
 

@@ -3,28 +3,28 @@ title: I Tell a Fly
 date: 2017-09-29 15:00:00 Z
 image: "/uploads/i-tell-a-fly.jpg"
 tracks:
-- name: Farewell Sonata
+- title: Farewell Sonata
   length: '4:35'
-- name: God Save The Jungle
+- title: God Save The Jungle
   length: '3:14'
-- name: Better Sorry Than Safe
+- title: Better Sorry Than Safe
   length: '5:32'
-- name: Phantom Of Aleppoville
+- title: Phantom Of Aleppoville
   length: '6:30'
-- name: Paris Cor Blimey
+- title: Paris Cor Blimey
   length: '4:23'
-- name: Jupiter
+- title: Jupiter
   length: '2:41'
-- name: Ode From Joyce
+- title: Ode From Joyce
   length: '2:05'
-- name: One Awkward Fish
+- title: One Awkward Fish
   length: '4:13'
-- name: By The Ports Of Europe
+- title: By The Ports Of Europe
   length: '3:40'
-- name: Quintessence
+- title: Quintessence
   length: '3:37'
-- name: Ave Dreamer
+- title: Ave Dreamer
   length: '4:28'
 ---
 
-# 
+[Pre-order](https://benjaminclementine.lnk.to/ITellAFlyAlbum)

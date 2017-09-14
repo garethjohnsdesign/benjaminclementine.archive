@@ -34,22 +34,21 @@
     	<div class="shrink cell" data-aos="fade-up">
     		<ul class="vertical menu text-center">
           <li><a href="/news/" data-toggle="toggle" data-toggler=".is-active">News</a></li>
-          <li><a href="/word/" data-toggle="toggle" data-toggler=".is-active">Word</a></li>
           <li><a href="/poetry/" data-toggle="toggle" data-toggler=".is-active">Poetry</a></li>
           <li><a href="/music/" data-toggle="toggle" data-toggler=".is-active">Music</a></li>
           <li><a href="/images/" data-toggle="toggle" data-toggler=".is-active">Images</a></li>
           <li><a href="/film/" data-toggle="toggle" data-toggler=".is-active">Film</a></li>
           <li><a href="/performances/" data-toggle="toggle" data-toggler=".is-active">Performances</a></li>
           <li><a href="/info/" data-toggle="toggle" data-toggler=".is-active">Info</a></li>
-          <li><a href="/letters/" data-toggle="toggle" data-toggler=".is-active">Letters</a></li>
+          <li class="active"><a href="/subscribe/" data-toggle="toggle" data-toggler=".is-active">Subscribe</a></li>
         </ul>
     	</div>
     </div>
   </div>
 </div>
 <section class="navigation grid-x grid-padding-x grid-padding-y align-justify">
-  <div class="shrink cell">
-    <a data-toggle="navigation__overlay toggle" data-toggler=".is-active">Benjamin Clementine</a>
+  <div class="navigation__title shrink cell">
+    <a href="/">B—C</a>
   </div>
   <div class="shrink navigation__small">
     <button class="hamburger hamburger--collapse" id="toggle" data-toggle="navigation__overlay toggle" data-toggler=".is-active" type="button">
@@ -58,8 +57,26 @@
   </div>
 </section>
 <section class="subscribe page">
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 cell">
+<div class="grid-y align-center" style="min-height: 100%;">
+  <div class="shrink cell">
+    <div class="grid-x align-center">
+      <div class="small-12 medium-10 cell text-center text-capitalize">
+        <p>Sign up to my mailing to be the first to hear about my latest projects and stay informed of important news in the future.</p>
+      </div>
+    </div>
+    <div class="grid-x grid-padding-y align-center" data-aos="fade-in">
+      <div class="shrink cell text-center">
+        <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+          <div class="input-group">
+          <input class="input-group-field" type="email" name="EMAIL" placeholder="Your Email Address">
+          <div class="input-group-button">
+          <input type="submit" class="button hollow" value="Submit">
+          </div>
+        </div>
+        </form>
+        <small>No spam ever. Unsubscribe with one click any time.</small>
+      </div>
+    </div>
   </div>
 </div>
 </section>

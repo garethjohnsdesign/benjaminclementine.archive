@@ -39,7 +39,8 @@
     "svgxuse": "^1.2.4",
     "lightgallery": "^1.5.0",
     "flickity": "^2.0.9",
-    "what-input": "^5.0.1"
+    "what-input": "^5.0.1",
+    "instafeed.js": "^1.4.1"
   },
   "resolutions": {
     "what-input": "^5.0.1"

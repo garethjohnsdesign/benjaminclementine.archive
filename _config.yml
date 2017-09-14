@@ -3,26 +3,25 @@ title: Benjamin Clementine
 timezone: UTC
 collections:
   film:
-    title: Films
-    output: true
+    title: Film
+    output: false
   music:
     title: Music
-    output: true
+    output: false
   performances:
     title: Performances
-    output: true
+    output: false
   poetry:
     title: Poetry
-    output: true
+    output: false
   posts:
     title: Posts
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: false
 url: https://www.benjaminclementine.com
-description: Official website for Victoires de la Musique, Mercury Prize Winning Poet
-  and artist Benjamin Clementine.
+description: Official website for Victoires de la Musique, Mercury Prize Winning Poet and artist Benjamin Clementine.
 permalink: pretty
 exclude:
 - bower.json

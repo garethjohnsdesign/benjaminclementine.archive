@@ -75,6 +75,10 @@ i, cite, em, var, address, dfn {
   font-weight: $global-weight-normal;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 // X. Navigation
 // ------
 
@@ -83,12 +87,16 @@ i, cite, em, var, address, dfn {
   top: 0;
   width: 100%;
   z-index: 1;
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
+  font-family: $secondary-font-family;
+  font-size: 2rem;
 }
 
+/*
 .navigation__small {
   z-index: 2;
 }
+*/
 
 .navigation__overlay {
   z-index: 1;
@@ -116,6 +124,10 @@ i, cite, em, var, address, dfn {
     color: $color--medium-gray;
   }
   
+  .menu a {
+    padding: 0.25rem;
+  }
+  
   .menu .active>a {
     color: $color--medium-gray;
   }
@@ -129,7 +141,14 @@ i, cite, em, var, address, dfn {
 // ---------
 
 .page {
-  padding: 2rem;
+  padding: 4rem;
+}
+
+.page p a {
+  border-bottom: 1px solid $color--white;
+  &:hover {
+    border-bottom: 1px solid transparent;
+  }
 }
 
 article {
@@ -144,7 +163,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
   z-index: 1;
 }
 
@@ -174,4 +193,81 @@ a#footer__follow.is-active  {
     visibility: visible;
   }
   
+}
+
+
+// 2. Images
+// ---------
+
+
+// 2. Music
+// ---------
+
+.music__tracks {
+  text-align: center; 
+  list-style-position:inside;
+}
+
+// 2. Home
+// ---------
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/uploads/i-tell-a-fly.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%; 
+  background-size: 40%;
+}
+
+.home h1 {
+  margin-bottom: 0rem;
+  line-height: 1.2;
+}
+
+// 2. Info
+// ---------
+
+.info {
+  height: 100vh;
+  width: 100vw;
+}
+
+// 2. Subscribe
+// ---------
+
+.subscribe {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+// 8. Videos
+// ----------
+
+.videos__list a {
+  display: block;
+  width: 100%;
+  position: relative; 
+}
+    
+.videos__list a:hover img {
+  filter: saturate(0%) brightness(50%); 
+}
+    
+.videos__list a img {
+  transition: $primary-transition;
+  filter: saturate(100%) brightness(100%); 
+  display: block;
+}
+
+.videos__list a .item__title {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  color: $color--white; 
 }

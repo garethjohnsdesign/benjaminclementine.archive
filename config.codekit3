@@ -17,10 +17,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/404.html",
+		"oA": 2,
+		"oAP": "\/404.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -43,6 +43,54 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_data\/navigation.yml",
+		"oF": 0
+		},
+	"\/_film\/condolence.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/condolence.markdown",
+		"oF": 0
+		},
+	"\/_film\/cornerstone.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/cornerstone.markdown",
+		"oF": 0
+		},
+	"\/_film\/hallelujah-money.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/hallelujah-money.markdown",
+		"oF": 0
+		},
+	"\/_film\/i-wont-complain-acoustic.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/i-wont-complain-acoustic.markdown",
+		"oF": 0
+		},
+	"\/_film\/i-wont-complain.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/i-wont-complain.markdown",
+		"oF": 0
+		},
+	"\/_film\/london.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/london.markdown",
+		"oF": 0
+		},
+	"\/_film\/nemesis.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/nemesis.markdown",
+		"oF": 0
+		},
+	"\/_film\/phantom-of-aleppoville.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_film\/phantom-of-aleppoville.markdown",
 		"oF": 0
 		},
 	"\/_includes\/analytics.html": {
@@ -79,6 +127,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/sign-up.html",
+		"oF": 0
+		},
+	"\/_includes\/video.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/video.html",
 		"oF": 0
 		},
 	"\/_layouts\/compress.html": {
@@ -195,7 +249,277 @@
 		"oAP": "\/_music\/i-tell-a-fly.markdown",
 		"oF": 0
 		},
-	"\/_posts\/2015-04-04-at-least-for-now-released-to-critical-acclaim.md": {
+	"\/_performances\/02-academy.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/02-academy.markdown",
+		"oF": 0
+		},
+	"\/_performances\/ancienne-belgique.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/ancienne-belgique.markdown",
+		"oF": 0
+		},
+	"\/_performances\/berliner-philharmonie.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/berliner-philharmonie.markdown",
+		"oF": 0
+		},
+	"\/_performances\/birmingham-town-hall.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/birmingham-town-hall.markdown",
+		"oF": 0
+		},
+	"\/_performances\/brixton-academy.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/brixton-academy.markdown",
+		"oF": 0
+		},
+	"\/_performances\/carnegie-hall.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/carnegie-hall.markdown",
+		"oF": 0
+		},
+	"\/_performances\/colston-hall.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/colston-hall.markdown",
+		"oF": 0
+		},
+	"\/_performances\/de-doelen.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/de-doelen.markdown",
+		"oF": 0
+		},
+	"\/_performances\/dome-concert-hall.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/dome-concert-hall.markdown",
+		"oF": 0
+		},
+	"\/_performances\/elbphilharmonie.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/elbphilharmonie.markdown",
+		"oF": 0
+		},
+	"\/_performances\/iceland-airwaves-second.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/iceland-airwaves-second.markdown",
+		"oF": 0
+		},
+	"\/_performances\/iceland-airwaves.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/iceland-airwaves.markdown",
+		"oF": 0
+		},
+	"\/_performances\/izvestia-hall.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/izvestia-hall.markdown",
+		"oF": 0
+		},
+	"\/_performances\/kino-siska.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/kino-siska.markdown",
+		"oF": 0
+		},
+	"\/_performances\/kolner-philharmonie.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/kolner-philharmonie.markdown",
+		"oF": 0
+		},
+	"\/_performances\/konzerthaus-dortmund.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/konzerthaus-dortmund.markdown",
+		"oF": 0
+		},
+	"\/_performances\/le-grand-rex.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/le-grand-rex.markdown",
+		"oF": 0
+		},
+	"\/_performances\/mtp2-hall.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/mtp2-hall.markdown",
+		"oF": 0
+		},
+	"\/_performances\/philharmonie-luxembourg.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/philharmonie-luxembourg.markdown",
+		"oF": 0
+		},
+	"\/_performances\/philharmonie-munchen.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/philharmonie-munchen.markdown",
+		"oF": 0
+		},
+	"\/_performances\/the-hall-compensa.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/the-hall-compensa.markdown",
+		"oF": 0
+		},
+	"\/_performances\/the-october-palace.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/the-october-palace.markdown",
+		"oF": 0
+		},
+	"\/_performances\/the-ritz.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/the-ritz.markdown",
+		"oF": 0
+		},
+	"\/_performances\/the-sage.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/the-sage.markdown",
+		"oF": 0
+		},
+	"\/_performances\/theatre-femina.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/theatre-femina.markdown",
+		"oF": 0
+		},
+	"\/_performances\/theatre-sebastopol.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/theatre-sebastopol.markdown",
+		"oF": 0
+		},
+	"\/_performances\/times-talks.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_performances\/times-talks.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/a-black-american-man.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/a-black-american-man.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/adios.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/adios.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/condolence.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/condolence.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/cornerstone.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/cornerstone.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/gone.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/gone.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/if-you-want-to.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/if-you-want-to.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/london.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/london.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/nemesis.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/nemesis.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/phantom-of-aleppoville.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/phantom-of-aleppoville.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/pymmes-park.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/pymmes-park.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/quiver-a-little.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/quiver-a-little.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/st-clementine-on-tea-and-croissants.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/st-clementine-on-tea-and-croissants.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/the-end-of-christmas-tree.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/the-end-of-christmas-tree.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/the-people-and-i.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/the-people-and-i.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/then-i-heard-a-bachelors-cry.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/then-i-heard-a-bachelors-cry.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/well-done-ol-blighty.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/well-done-ol-blighty.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/winston-churchills-boy.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/winston-churchills-boy.markdown",
+		"oF": 0
+		},
+	"\/_poetry\/yours-harambe.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_poetry\/yours-harambe.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-08-25-evening-music-conversation-timestalks.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -203,17 +527,17 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_posts\/2015-04-04-at-least-for-now-released-to-critical-acclaim.html",
+		"oA": 2,
+		"oAP": "\/_posts\/2017-08-25-evening-music-conversation-timestalks.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_posts\/2015-06-12-benjamin-speaks-to-channel-4-news.md": {
+	"\/_posts\/2017-08-26-benjamin-feature-nina-contis-edinburgh-festival-bbc2.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -221,17 +545,17 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_posts\/2015-06-12-benjamin-speaks-to-channel-4-news.html",
+		"oA": 2,
+		"oAP": "\/_posts\/2017-08-26-benjamin-feature-nina-contis-edinburgh-festival-bbc2.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_posts\/2015-09-28-the-most-explosive-performances-from-later-with-jools-holland.md": {
+	"\/_posts\/2017-08-31-interview-with-clash.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -239,17 +563,17 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_posts\/2015-09-28-the-most-explosive-performances-from-later-with-jools-holland.html",
+		"oA": 2,
+		"oAP": "\/_posts\/2017-08-31-interview-with-clash.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_posts\/2015-10-08-beats-1-interview.md": {
+	"\/_posts\/2017-09-07-brussels-show-rescheduled.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -257,17 +581,17 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_posts\/2015-10-08-beats-1-interview.html",
+		"oA": 2,
+		"oAP": "\/_posts\/2017-09-07-brussels-show-rescheduled.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_posts\/2015-11-08-jools-holland-on-at-least-for-now.md": {
+	"\/_posts\/2017-09-08-quintessence-is-out-now.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -275,33 +599,45 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_posts\/2015-11-08-jools-holland-on-at-least-for-now.html",
+		"oA": 2,
+		"oAP": "\/_posts\/2017-09-08-quintessence-is-out-now.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_posts\/2015-11-19-interview-with-the-guardian.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_posts\/2015-11-19-interview-with-the-guardian.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+	"\/_site\/2017\/08\/25\/evening-music-conversation-timestalks\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/2017\/08\/25\/evening-music-conversation-timestalks\/index.html",
+		"oF": 0
+		},
+	"\/_site\/2017\/08\/26\/benjamin-feature-nina-contis-edinburgh-festival-bbc2\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/2017\/08\/26\/benjamin-feature-nina-contis-edinburgh-festival-bbc2\/index.html",
+		"oF": 0
+		},
+	"\/_site\/2017\/08\/31\/interview-with-clash\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/2017\/08\/31\/interview-with-clash\/index.html",
+		"oF": 0
+		},
+	"\/_site\/2017\/09\/07\/brussels-show-rescheduled\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/2017\/09\/07\/brussels-show-rescheduled\/index.html",
+		"oF": 0
+		},
+	"\/_site\/2017\/09\/08\/quintessence-is-out-now\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/2017\/09\/08\/quintessence-is-out-now\/index.html",
+		"oF": 0
 		},
 	"\/_site\/404.html": {
 		"ft": 8192,
@@ -414,6 +750,34 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/_site\/assets\/fonts\/lg.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/lg.eot",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/fonts\/lg.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/lg.ttf",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/lg.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/lg.woff",
+		"oF": 0
 		},
 	"\/_site\/assets\/fonts\/maria.woff": {
 		"ft": 8192,
@@ -754,12 +1118,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/_site\/assets\/js\/instafeed.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/instafeed-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/_site\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/instafeed-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/instafeed-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -783,24 +1167,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/_site\/at-least-for-now-released-to-critical-acclaim\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/at-least-for-now-released-to-critical-acclaim\/index.html",
-		"oF": 0
-		},
-	"\/_site\/beats-1-interview\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/beats-1-interview\/index.html",
-		"oF": 0
-		},
-	"\/_site\/benjamin-speaks-to-channel-4-news\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/benjamin-speaks-to-channel-4-news\/index.html",
-		"oF": 0
 		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,
@@ -848,42 +1214,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/info\/index.html",
-		"oF": 0
-		},
-	"\/_site\/interview-with-the-guardian\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/interview-with-the-guardian\/index.html",
-		"oF": 0
-		},
-	"\/_site\/jools-holland-on-at-least-for-now\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/jools-holland-on-at-least-for-now\/index.html",
-		"oF": 0
-		},
-	"\/_site\/music\/at-least-for-now\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/music\/at-least-for-now\/index.html",
-		"oF": 0
-		},
-	"\/_site\/music\/cornerstone\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/music\/cornerstone\/index.html",
-		"oF": 0
-		},
-	"\/_site\/music\/glorious-you\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/music\/glorious-you\/index.html",
-		"oF": 0
-		},
-	"\/_site\/music\/i-tell-a-fly\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/music\/i-tell-a-fly\/index.html",
 		"oF": 0
 		},
 	"\/_site\/music\/index.html": {
@@ -940,17 +1270,31 @@
 		"oAP": "\/_site\/terms\/index.html",
 		"oF": 0
 		},
-	"\/_site\/the-most-explosive-performances-from-later-with-jools-holland\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/the-most-explosive-performances-from-later-with-jools-holland\/index.html",
-		"oF": 0
-		},
 	"\/_site\/uploads\/at-least-for-now.jpg": {
 		"ft": 16384,
 		"iS": 73157,
 		"oA": 0,
 		"oAP": "\/_site\/uploads\/at-least-for-now.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/condolence-video.jpg": {
+		"ft": 16384,
+		"iS": 158347,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/condolence-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/cornerstone-video.jpg": {
+		"ft": 16384,
+		"iS": 94717,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/cornerstone-video.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -976,6 +1320,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/uploads\/hallelujah-money.jpg": {
+		"ft": 16384,
+		"iS": 124241,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/hallelujah-money.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/uploads\/i-tell-a-fly.jpg": {
 		"ft": 16384,
 		"iS": 85102,
@@ -986,11 +1340,101 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/uploads\/i-wont-complain-acoustic.jpg": {
+		"ft": 16384,
+		"iS": 92939,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/i-wont-complain-acoustic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/i-wont-complain.jpg": {
+		"ft": 16384,
+		"iS": 124838,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/i-wont-complain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/london-video.jpg": {
+		"ft": 16384,
+		"iS": 170772,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/london-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/nemesis-video.jpg": {
+		"ft": 16384,
+		"iS": 110845,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/nemesis-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/phantom-of-aleppoville.jpg": {
+		"ft": 16384,
+		"iS": 55219,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/phantom-of-aleppoville.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/quintessence.jpg": {
+		"ft": 16384,
+		"iS": 159720,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/quintessence.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/times-talks.jpg": {
+		"ft": 16384,
+		"iS": 226141,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/times-talks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/at-least-for-now.jpg": {
 		"ft": 16384,
 		"iS": 73157,
 		"oA": 0,
 		"oAP": "\/_uploads\/at-least-for-now.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/condolence-video.jpg": {
+		"ft": 16384,
+		"iS": 158347,
+		"oA": 0,
+		"oAP": "\/_uploads\/condolence-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/cornerstone-video.jpg": {
+		"ft": 16384,
+		"iS": 94717,
+		"oA": 0,
+		"oAP": "\/_uploads\/cornerstone-video.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1016,11 +1460,91 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/hallelujah-money.jpg": {
+		"ft": 16384,
+		"iS": 124241,
+		"oA": 0,
+		"oAP": "\/_uploads\/hallelujah-money.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/i-tell-a-fly.jpg": {
 		"ft": 16384,
 		"iS": 85102,
 		"oA": 0,
 		"oAP": "\/_uploads\/i-tell-a-fly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/i-wont-complain-acoustic.jpg": {
+		"ft": 16384,
+		"iS": 92939,
+		"oA": 0,
+		"oAP": "\/_uploads\/i-wont-complain-acoustic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/i-wont-complain.jpg": {
+		"ft": 16384,
+		"iS": 124838,
+		"oA": 0,
+		"oAP": "\/_uploads\/i-wont-complain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/london-video.jpg": {
+		"ft": 16384,
+		"iS": 170772,
+		"oA": 0,
+		"oAP": "\/_uploads\/london-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/nemesis-video.jpg": {
+		"ft": 16384,
+		"iS": 110845,
+		"oA": 0,
+		"oAP": "\/_uploads\/nemesis-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/phantom-of-aleppoville.jpg": {
+		"ft": 16384,
+		"iS": 71339,
+		"oA": 0,
+		"oAP": "\/_uploads\/phantom-of-aleppoville.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/quintessence.jpg": {
+		"ft": 16384,
+		"iS": 159720,
+		"oA": 0,
+		"oAP": "\/_uploads\/quintessence.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/times-talks.jpg": {
+		"ft": 16384,
+		"iS": 226141,
+		"oA": 0,
+		"oAP": "\/_uploads\/times-talks.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1132,6 +1656,34 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/fonts\/lg.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/lg.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/lg.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.woff",
+		"oF": 0
+		},
 	"\/assets\/fonts\/maria.woff": {
 		"ft": 8192,
 		"oA": 2,
@@ -1197,12 +1749,32 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/assets\/js\/instafeed.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/instafeed-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/instafeed-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/instafeed-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1795,7 +2367,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/aos\/CHANGELOG.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -1813,7 +2385,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/aos\/CONTRIBUTING.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -1907,7 +2479,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/aos\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -2522,7 +3094,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/css-hamburgers\/CHANGELOG.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -2626,7 +3198,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/css-hamburgers\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -2670,7 +3242,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/desandro-matches-selector\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -2714,7 +3286,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/ev-emitter\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -2748,7 +3320,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/fizzy-ui-utils\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -2952,7 +3524,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/flickity\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -2990,7 +3562,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -3008,7 +3580,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -3262,7 +3834,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/code-of-conduct.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -4785,7 +5357,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -6204,7 +6776,67 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/get-size\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/instafeed.js\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/instafeed.js\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/instafeed.js\/instafeed.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/instafeed.js\/instafeed.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/instafeed.js\/instafeed.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/instafeed.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/instafeed.js\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/instafeed.js\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/README.md",
+		"oF": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -6344,7 +6976,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -7442,7 +8074,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/contributing.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -7876,7 +8508,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/LICENSE.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -7915,7 +8547,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/lightgallery\/modules\/lg-fullscreen.js",
 		"oF": 0,
 		"sC": 1,
@@ -8015,7 +8647,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/lightgallery\/modules\/lg-video.js",
 		"oF": 0,
 		"sC": 1,
@@ -8511,7 +9143,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/animations.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8529,7 +9161,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/classes.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8547,7 +9179,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/configuration.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8565,7 +9197,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/installation.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8583,7 +9215,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/javascript.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8601,7 +9233,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/readme.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8619,7 +9251,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/transitions.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8637,7 +9269,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/docs\/wow.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8681,7 +9313,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/meteor-README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8740,7 +9372,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -9074,7 +9706,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/svgxuse\/readme.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -9128,7 +9760,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/tap-listener\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -9172,7 +9804,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/unidragger\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -9216,7 +9848,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/unipointer\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -9318,7 +9950,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/README.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -9452,7 +10084,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/film.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9488,7 +10120,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/images.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9504,8 +10136,8 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/index.html",
+		"oA": 2,
+		"oAP": "\/index.md",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -9524,7 +10156,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/info.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9540,10 +10172,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/LICENSE.html",
+		"oA": 2,
+		"oAP": "\/LICENSE.md",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -9560,7 +10192,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/music.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9578,7 +10210,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/news.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9604,7 +10236,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/performances.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9622,7 +10254,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/poetry.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9640,7 +10272,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/privacy.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9658,7 +10290,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/README.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9682,7 +10314,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/subscribe.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9700,7 +10332,7 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/terms.md",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
@@ -9739,20 +10371,38 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/instafeed.js\/instafeed.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-fullscreen.js",
 			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-video.js",
+			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
+			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
+			"position": 9,
 			"type": 0
 			}
 		]
@@ -11609,8 +12259,8 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.md",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -11621,7 +12271,7 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
-		"outputFormat": 0,
+		"outputFormat": 9,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,

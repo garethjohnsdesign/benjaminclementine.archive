@@ -2,12 +2,27 @@
 layout: default
 ---
 
-<!-- Content -->
-
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 cell">
-    {{content}}
+{% assign poems = site.poetry | reverse %}
+{% for poem in poems %}
+<article class="grid-x grid-padding-x grid-padding-y align-center text-center" data-aos="fade-up">
+  <div class="expand cell">
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 cell">
+      <h1>{{poem.title}}<h1>
+    </div>
+  </div>  
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 cell">
+      {{poem.content}}
+    </div>
+  </div>  
+  
   </div>
-</div>
+</article>
+{% endfor %}
+    
 
-<!-- End Content -->
+
+
