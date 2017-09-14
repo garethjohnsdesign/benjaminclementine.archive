@@ -6,3 +6,4 @@ location: Poznan
 tickets: https://www.biletomat.pl/koncerty/benjamin-clementine-5282/
 country: Poland
 ---
+

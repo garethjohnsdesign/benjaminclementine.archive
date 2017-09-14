@@ -6,3 +6,4 @@ location: Birmingham
 tickets: https://dice.fm/event/benjamin-clementine-1st-dec-birmingham-town-hall-tickets
 country: UK
 ---
+

@@ -6,3 +6,4 @@ location: Reykjavik
 tickets: http://icelandairwaves.is/
 country: Iceland
 ---
+

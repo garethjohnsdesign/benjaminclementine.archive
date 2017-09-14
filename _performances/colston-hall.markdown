@@ -6,3 +6,4 @@ location: Bristol
 tickets: https://dice.fm/event/benjamin-clementine-8th-dec-colston-hall-bristol-tickets
 country: UK
 ---
+

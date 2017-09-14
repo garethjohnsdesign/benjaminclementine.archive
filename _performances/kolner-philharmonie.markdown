@@ -6,3 +6,4 @@ location: Köln
 tickets: http://www.koelner-philharmonie.de/veranstaltung/119592/
 country: Germany
 ---
+

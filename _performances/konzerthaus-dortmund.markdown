@@ -6,3 +6,4 @@ location: Dortmund
 tickets: https://www.konzerthaus-dortmund.de/de/programm/22-11-2017-benjamin-clementine-221607/#seatingplan
 country: Germany
 ---
+
