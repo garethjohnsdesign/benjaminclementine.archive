@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<ul class="tabs" data-update-history="true" data-deep-link="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="600" data-responsive-accordion-tabs="accordion large-tabs" data-allow-all-closed="true" id="example-tabs">
+  <li class="tabs-title is-active"><a href="#all" aria-selected="true">All</a></li>
+  {% assign performance-countries = site.performances | group_by_exp: "item", "item.country" %}
+  {% for performance-country in performance-countries %}
+  <li class="tabs-title"><a href="#{{ performance-country.name | slugify }}">{{ performance-country.name }}</a></li>
+  {%endfor%}
+</ul>
+
+
+<div class="tabs-content" data-tabs-content="example-tabs">
+  
+  <!-- All -->
+  <div class="tabs-panel is-active" id="all">  
+  {% assign performances = site.performances %}
+  {% for performance in performances %}
+  
+    <article class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="shrink cell">
+        <ul class="menu">
+          <li><a href="{{performance.tickets}}">{{performance.date | date: site.date_format }}</a></li>
+          <li><a href="{{performance.tickets}}">{{performance.title}}</a></li>
+          <li><a href="{{performance.tickets}}">{{performance.location}}</a></li>
+          <li><a href="{{performance.tickets}}" class="button hollow">Tickets</a></li>
+        </ul>
+      </div>
+    </article>  
+  
+  {% endfor %}
+  </div>
+  <!-- End All -->
+  
+  <!-- Countries -->
+  {% assign performance-countries = site.performances | group_by_exp: "item", "item.country" %}
+  {% for performance-country in performance-countries %}
+    <div class="tabs-panel" id="{{ performance-country.name | slugify }}">  
+    {% assign sorted = performance-country.items | sort: 'date' %}
+    {% for performance-country in sorted %}
+      <article class="grid-x grid-padding-x grid-padding-y align-center">
+        <div class="shrink cell">
+          <ul class="menu">
+            <li><a href="{{performance-country.tickets}}">{{performance-country.date | date: site.date_format }}</a></li>
+            <li><a href="{{performance-country.tickets}}">{{performance-country.title}}</a></li>
+            <li><a href="{{performance-country.tickets}}">{{performance-country.location}}</a></li>
+            <li><a href="{{performance-country.tickets}}" class="button hollow">Tickets</a></li>
+          </ul>
+        </div>
+      </article> 
+    {% endfor %}
+    </div>
+  {% endfor %}
+  <!-- Countries -->
+  
+</div>
+<!-- End All -->
+
+
+  

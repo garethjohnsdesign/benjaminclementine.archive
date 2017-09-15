@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% assign posts = site.posts %}
+{% for post in posts %}
+<article class="grid-x grid-padding-x grid-padding-y align-center text-center" data-aos="fade-up">
+  <div class="expand cell">
+  
+  {% if post.image %}
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-8 cell">
+      <img src="{{post.image}}">
+    </div>
+  </div>
+  {% endif %}
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 cell">
+      <h1>{{post.title}}<h1>
+    </div>
+  </div>  
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 cell">
+      {{post.content}}
+    </div>
+  </div>  
+  
+  </div>
+</article>
+{% endfor %}

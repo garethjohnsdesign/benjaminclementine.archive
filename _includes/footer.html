@@ -1,0 +1,30 @@
+<!-- Follow Overlay -->
+<div class="follow__overlay grid-y align-center" id="follow__overlay" data-toggler=".open">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+    	<div class="shrink cell" data-aos="fade-up">
+    		
+    		<ul class="vertical menu text-center">
+        {% for entry in site.data.follow %}
+          <li><a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a></li>
+        {% endfor %}
+        </ul>
+
+    	</div>
+    </div>
+  </div>
+</div>
+<!-- End Follow Overlay -->
+
+
+<footer class="grid-x grid-padding-x grid-padding-y align-justify">
+  
+  <div class="shrink cell text-center footer__small">
+    <a id="footer__follow" data-toggle="follow__overlay footer__follow" data-toggler=".is-active">Follow</a>
+  </div>
+  
+  <div class="shrink cell text-center">
+    <a href="/subscribe">Subscribe</a>
+  </div>  
+  
+</footer>

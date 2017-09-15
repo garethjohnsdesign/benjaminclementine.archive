@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% assign releases = site.music | reverse %}
+{% for release in releases %}
+<article class="grid-x grid-padding-x grid-padding-y align-center text-center" data-aos="fade-up">
+  <div class="expand cell">
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-6 cell">
+      <img src="{{release.image}}" alt="{{release.title}}">
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 cell">
+      <h1>{{release.title}}</h1>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 cell">
+      {% assign tracks = release.tracks | reverse %}
+      <ol class="music__tracks">
+      {% for track in tracks %}
+      <li>{{track.title}} — {{track.length}}</li>
+      {% endfor %}
+      </ol>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 cell">
+      {{release.content}}
+    </div>
+  </div>
+  
+  
+  </div>
+</article>
+{% endfor %}
+    
+
+
+

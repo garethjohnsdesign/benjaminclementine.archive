@@ -1,0 +1,71 @@
+---
+title: Benjamin Clementine
+timezone: UTC
+collections:
+  film:
+    title: Film
+    output: false
+  music:
+    title: Music
+    output: false
+  performances:
+    title: Performances
+    output: false
+  poetry:
+    title: Poetry
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+url: https://www.benjaminclementine.com
+description: Official website for Victoires de la Musique, Mercury Prize Winning Poet
+  and artist Benjamin Clementine.
+permalink: pretty
+exclude:
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-mentions
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: false
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Benjamin Clementine
+email: info@benjaminclementine.com
+google_site_verification: 
+analytics: 
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%d %B %Y"
+future: true
+social:
+  instagram: https://instagram.com/benjaminclementine
+  facebook: https://www.facebook.com/benjaminclementine
+  youtube: https://www.youtube.com/channel/UC7m-qX2H35-_s6FVFQpUuDw
+  twitter: https://twitter.com/mrbclementine?lang=en-gb
+  soundcloud: https://soundcloud.com/benjamin-clementine
+  spotify: https://open.spotify.com/artist/7zHIrsSBL7A0gEJfzv1m7z
+  deezer: http://www.deezer.com/artist/4806921
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
