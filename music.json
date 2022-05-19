@@ -1,0 +1,13 @@
+---
+layout: 
+---
+
+[
+{% for post in site.music %}
+    {
+      "title"    : "{{ post.title }}",
+      "date"     : "{{ post.date | date: "%B %d, %Y" }}",
+      "copy"  : "{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}",
+    } {% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+] 
